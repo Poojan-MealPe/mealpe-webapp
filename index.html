@@ -1,0 +1,121 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/><meta http-equiv="X-UA-Compatible" content="ie=edge"/><title>Mealpe</title><script src="https://ebz-static.s3.ap-south-1.amazonaws.com/easecheckout/v2.0.0/easebuzz-checkout-v2.min.js"></script><style>@font-face {
+        font-family: 'Feather';
+        src: url('assets/fonts/Feather.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'EvilIcons';
+        src: url('assets/fonts/EvilIcons.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'FontAwesome';
+        src: url('/assets/fonts/FontAwesome.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Ionicons';
+        src: url('assets/fonts/Ionicons.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'MaterialCommunityIcons';
+        src: url('assets/fonts/MaterialCommunityIcons.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'MaterialIcons';
+        src: url('assets/fonts/MaterialIcons.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Octicons';
+        src: url('assets/fonts/Octicons.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Inter-Medium';
+        src: url('assets/fonts/Inter-Medium.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Inter-SemiBold';
+        src: url('assets/fonts/Inter-SemiBold.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Inter-Light';
+        src: url('assets/fonts/Inter-Light.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Inter-Regular';
+        src: url('assets/fonts/Inter-Regular.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Inter-Bold';
+        src: url('assets/fonts/Inter-Bold.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Inter-Thin';
+        src: url('assets/fonts/Inter-Thin.ttf') format('truetype');
+      }
+      body,
+      html {
+        overflow: hidden;
+      }
+      #app-root {
+        width: 400px !important; /* Set the width to match the desired mobile screen width */
+        margin: 0px !important; /* Center the element horizontally */
+        /*height: 100vh; !* Set the height to match the viewport height *!*/
+        /*background-color: #ffffff; !* Background color #f0f0f0 *!*/
+        /*justify-content: center; !* Center horizontally *!*/
+        /*align-items: center; !* Center vertically *!*/
+        /*overflow: hidden;*/
+      }
+      input[type='time'] {
+        color: #2a2c2d;
+        font-size: 14px;
+        font-family: Helvetica;
+        width: 170px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        line-height: 1;
+      }
+
+      @media (max-width: 360px) {
+        /* Adjust styles for smaller screens */
+        #app-root {
+          width: 360px !important; /* Allow full width on smaller screens */
+        }
+      }
+
+      @media (min-width: 800px) {
+        /* Adjust styles for smaller screens */
+        #app-root {
+          width: 400px !important; /* Allow full width on smaller screens */
+          justify-content: center; /* Center content horizontally */
+          align-items: center; /* Center content vertically */
+          display: flex;
+          overflow: hidden;
+          margin: 0 auto !important;
+        }
+      }
+      /* Adjust the space between fields */
+      input[type='time']::-webkit-datetime-edit-fields-wrapper {
+        display: flex;
+        align-items: center;
+      }
+
+      /* Styling for individual time fields */
+      input[type='time']::-webkit-datetime-edit-hour-field,
+      input[type='time']::-webkit-datetime-edit-minute-field {
+        padding: 8px;
+      }
+
+      /* AM/PM field */
+      input[type='time']::-webkit-datetime-edit-ampm-field {
+        padding: 8px;
+      }
+
+      /* Hide 'X' button for clearing/resetting time */
+      input[type='time']::-webkit-clear-button {
+        display: none;
+      }
+
+      /* Hide up/down arrows for incrementing/decrementing */
+      input[type='time']::-webkit-inner-spin-button {
+        display: none;
+      }</style><script defer="defer" src="/rnw_blogpost.bundle.js"></script></head><body><div id="app-root"></div></body></html>
