@@ -4,7 +4,7 @@ run the following commands in the terminal one by one :
 
 cd /home/ubuntu/webapp
 sudo rm -r build
-git clone https://github.com/POOJANGHETIYA/build.git
+git clone https://github.com/Poojan-MealPe/mealpe-webapp.git
 cd /var/www/html
 sudo rm -r assets
 sudo rm -r images
