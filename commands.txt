@@ -1,0 +1,11 @@
+first commit the changes in the git repository
+
+run the following commands in the terminal one by one :
+
+cd /home/ubuntu/webapp
+sudo rm -r build
+git clone https://github.com/POOJANGHETIYA/build.git
+cd /var/www/html
+sudo rm -r assets
+sudo rm -r images
+sudo mv /home/ubuntu/webapp/build/* /var/www/html/
