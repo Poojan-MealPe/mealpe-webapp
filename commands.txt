@@ -3,7 +3,7 @@ first commit the changes in the git repository
 run the following commands in the terminal one by one :
 
 cd /home/ubuntu/webapp
-sudo rm -r build
+sudo rm -r mealpe-webapp
 git clone https://github.com/Poojan-MealPe/mealpe-webapp.git
 cd /var/www/html
 sudo rm -r assets
